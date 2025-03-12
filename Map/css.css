@@ -1,0 +1,112 @@
+*{
+    font-size: large;
+    box-sizing: border-box;
+    font-family: "Outfit", serif;
+    text-decoration: none;
+    outline: none;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: black;
+    background-image: url('assets/bg.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: auto;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow-x: hidden;
+    font-weight: bold;
+}
+
+.title{
+    margin-top: 10px;
+    font-size: xx-large;
+    text-align: center;
+}
+
+/*-----------------------------------------------------------------------------------------------------------------*/
+
+.coordinates{
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+table{
+    margin-top: 20px;
+}
+
+tr{
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+}
+
+td, input{
+    width: 150px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+tr
+
+td button {
+    border-radius: 10px;
+}
+
+td button:hover {
+    background-color: black;
+    color: white;
+}
+
+/*-----------------------------------------------------------------------------------------------------------------*/
+
+#map {
+    height: 400px;
+    width: 510px;   
+    border-radius: 10px;
+    border: 5px solid black ;
+}
+
+/*-----------------------------------------------------------------------------------------------------------------*/
+
+.q{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.q img{
+    height: 400px;
+    width: 510px;
+    border: 5px solid black ;
+    border-radius: 10px;
+}
+
+.qd{
+    background-color: white;
+    border: 2px solid black;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.qd:hover{
+    background-color: black;
+}
+
+.qd:hover a{
+    color: white;
+}

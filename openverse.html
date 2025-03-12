@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Map\css.css">
+    <link rel="stylesheet" href="Map\css2.css">
+    <link rel="icon" href="Map\assets\logo.png" type="image/x-icon">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.awesome-markers/2.0.4/leaflet.awesome-markers.css" />
+    
+
+    <title>Open Verse</title>
+</head>  
+
+<body>
+<!-- ================================================== Main ================================================== -->
+
+    <div class="title">Open Verse <br> Be the Conqueror</div>
+
+    <div class="coordinates">
+      
+        <div class="q">
+            <img id="question-image" src="Map/assets/1.png" alt="Question">
+        </div>
+        
+        <div id="map" class="map_display"></div>
+
+    </div>
+
+    <div class="qd"><a id="download-link" href="https://drive.google.com/file/d/1ozl47k8f1DCaXhS_ZDJreUJ7f-JxfTur/view?usp=sharing" target="_blank">Download</a></div>
+
+    <table>
+        <tr>
+            <td>Longitude (X) </td>
+            <td><input type="text" id="longitude"></td>
+        </tr>
+
+        <tr>
+            <td>Latitude (Y) </td>
+            <td><input type="text" id="latitude"></td>
+        </tr>
+
+        <tr>
+            <td></td>
+            <td><button onclick="updateMap()">Visit</button></td>
+        </tr>
+    </table>
+        
+<!-- ======================================================================================================================== -->
+
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11/lib/typed.min.js"></script>     
+<script src="Map\js.js" defer></script>
+<script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.awesome-markers/2.0.4/leaflet.awesome-markers.min.js"></script>
+
+</body>
+
+</html>

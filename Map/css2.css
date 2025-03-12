@@ -1,0 +1,17 @@
+@media only screen and (max-width: 1200px){
+    
+    .coordinates{
+        display: flex;
+        flex-direction: column;
+    }
+
+}
+
+@media only screen and (max-width: 1200px){
+    
+    #map, .q img{
+        height: 250px;
+        width: 350px;
+    }
+
+}
